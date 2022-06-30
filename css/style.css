@@ -1,85 +1,80 @@
-
 * {
   font-family: 'Inter', sans-serif;
   margin: 0;
   padding: 0;
 }
 
-.mob-navbar {
-  display: none;
+nav img {
+  width: 18px;
+  height: 12px;
 }
 
-@media (max-width: 768px) {
-  nav img {
-    width: 18px;
-    height: 12px;
-  }
+nav a {
+  color: #172b4d;
+  text-decoration: none;
+  font-size: large;
+  font-weight: bolder;
+}
 
-  nav a {
-    color: #172b4d;
-    text-decoration: none;
-    font-size: large;
-    font-weight: bolder;
-  }
+.mob-navbar {
+  margin: 5px 15px;
+  height: 48px;
+  width: 375px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
 
-  .mob-navbar {
-    margin: 5px 15px;
-    height: 48px;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-  }
+.title-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-image: url('../image/background-mobile.png');
+  background-repeat: no-repeat;
+  height: 100vh;
+  width: 375px;
+}
 
-  .title-section {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    background-image: url('../image/background-mobile.png');
-    background-repeat: no-repeat;
-    height: 100vh;
-  }
+.landing-text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  margin-top: 100px;
+}
 
-  .landing-text {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
-    margin-top: 100px;
-  }
+.landing-text h1,
+h2 {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  margin: 0%;
+}
 
-  .landing-text h1,
-  h2 {
-    font-style: normal;
-    font-weight: 700;
-    font-size: 40px;
-    margin: 0%;
-  }
+.landing-text h2 {
+  color: #36b27f;
+}
 
-  .landing-text h2 {
-    color: #36b27f;
-  }
+.landing-text h1 {
+  color: #172b4d;
+}
 
-  .landing-text h1 {
-    color: #172b4d;
-  }
+.landing-text p {
+  color: #172b4d;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 28px;
+  margin: 30px 20px 60px 20px;
+}
 
-  .landing-text p {
-    color: #172b4d;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 20px;
-    line-height: 28px;
-    margin: 30px 20px 60px 20px;
-  }
+.social-media-icons {
+  display: flex;
+  list-style: none;
+  justify-content: center;
+  gap: 19px;
+}
 
-  .social-media-icons {
-    display: flex;
-    list-style: none;
-    justify-content: center;
-    gap: 19px;
-  }
-
-  .scroll-icon {
-    margin-top: 30px;
-  }
+.scroll-icon {
+  margin-top: 30px;
 }
