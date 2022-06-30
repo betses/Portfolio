@@ -108,10 +108,6 @@ h2 {
   text-align: center;
 }
 
-.my-work-detail {
-  width: 375px;
-}
-
 .grid-container {
   display: grid;
   grid-template-rows: auto auto auto auto;
@@ -222,10 +218,6 @@ h2 {
   border-radius: 8px;
 }
 
-.skill-section {
-  width: 379px;
-}
-
 .grid-container2 {
   display: grid;
   grid-template-rows: auto auto auto auto;
@@ -283,10 +275,6 @@ h2 {
   font-size: 12px;
   line-height: 16px;
   color: #36b27f;
-}
-
-.get-intouch {
-  width: 375px;
 }
 
 .chat-text h2 {
