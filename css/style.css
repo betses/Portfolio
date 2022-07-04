@@ -152,7 +152,6 @@ h2 {
 }
 
 .built-with {
-  
   float: center;
   list-style: none;
   gap: 8px;
@@ -160,7 +159,6 @@ h2 {
 }
 
 .built-with li {
-  
   display: inline-block;
   background-color: #eaf1ee;
   padding: 6px;
