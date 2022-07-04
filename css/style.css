@@ -152,14 +152,16 @@ h2 {
 }
 
 .built-with {
-  display: flex;
-  justify-content: center;
+  
+  float: center;
   list-style: none;
   gap: 8px;
   margin: 15px;
 }
 
 .built-with li {
+  
+  display: inline-block;
   background-color: #eaf1ee;
   padding: 6px;
   border-radius: 5px;
@@ -258,8 +260,7 @@ h2 {
 }
 
 .built-with2 {
-  display: flex;
-  justify-content: center;
+  float: center;
   flex-wrap: wrap;
   list-style: none;
   gap: 8px;
@@ -267,6 +268,7 @@ h2 {
 }
 
 .built-with2 li {
+  display: inline-block;
   background-color: white;
   padding: 12px;
   border-radius: 5px;
