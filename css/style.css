@@ -315,8 +315,7 @@
   }
 
   .chat-text h2 {
-    margin: 130px 24px 50px 135px;
-    text-align: center;
+    margin: 122px 23px 0 0;
     font-style: normal;
     font-weight: 700;
     font-size: 30px;
@@ -330,7 +329,7 @@
     flex-direction: column;
     gap: 24px;
     margin: 58px 24px 10px 20px;
-    width: 530px;
+    width: 640px;
   }
 
   .text-input {
@@ -385,13 +384,13 @@
     justify-content: center;
     padding-bottom: 225px;
     margin-top: 100px;
+    margin-left: 35px;
   }
 
   footer {
     background-image: url('../image/footerbg.png');
     background-repeat: no-repeat;
-    background-position-y: 145px;
-    background-position-x: 32px;
+    background-position: center;
   }
 
   .email {
