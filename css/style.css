@@ -183,6 +183,10 @@
     height: 252px;
   }
 
+  .my-work-card:hover {
+    transform: scale(1.1);
+  }
+
   .built-with {
     display: flex;
     justify-content: center;
@@ -342,9 +346,10 @@
     font-size: 15px;
     line-height: 24px;
   }
-  .text-input:hover::placeholder{
-    transform:translateX(10px);
-    transition:all 0.5s ease-out;
+
+  .text-input:hover::placeholder {
+    transform: translateX(10px);
+    transition: all 0.5s ease-out;
   }
 
   #text-area {
