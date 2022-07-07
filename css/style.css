@@ -10,8 +10,9 @@
   }
 
   button:hover {
-    background: #37b37e;
+    background: #c5e9da;
     box-shadow: 0 8px 16px rgba(54, 179, 127, 0.24);
+    transition: all 0.5s ease-out;
   }
 
   button:active {
@@ -182,6 +183,10 @@
     height: 252px;
   }
 
+  .my-work-card:hover {
+    transform: scale(1.1);
+  }
+
   .built-with {
     display: flex;
     justify-content: center;
@@ -340,6 +345,11 @@
     font-weight: 400;
     font-size: 15px;
     line-height: 24px;
+  }
+
+  .text-input:hover::placeholder {
+    transform: translateX(10px);
+    transition: all 0.5s ease-out;
   }
 
   #text-area {
