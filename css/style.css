@@ -33,15 +33,16 @@
     height: 100vh;
   }
 
-  .top-nav {
-    padding-top: 2%;
-  }
-
   .top-nav ul {
     display: flex;
     list-style: none;
     justify-content: center;
     gap: 3rem;
+    position: absolute;
+    left: 0;
+    right: 0;
+    text-align: center;
+    top: 50px;
   }
 
   .top-nav a {
@@ -390,7 +391,7 @@
     background-image: url('../image/footerbg.png');
     background-repeat: no-repeat;
     background-position-y: 145px;
-    background-position-x: 50px;
+    background-position-x: 32px;
   }
 
   .email {
@@ -404,6 +405,10 @@
     font-family: 'Inter', sans-serif;
     margin: 0;
     padding: 0;
+  }
+
+  .top-nav {
+    display: none;
   }
 
   button {
@@ -434,7 +439,7 @@
   .mob-navbar {
     margin: 5px 15px;
     height: 48px;
-    width: 357px;
+    width: 328px;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -447,6 +452,7 @@
     background-image: url('../image/background-mobile.png');
     background-repeat: no-repeat;
     width: 375px;
+    margin: auto;
   }
 
   .landing-text {
@@ -457,8 +463,8 @@
     margin-top: 100px;
   }
 
-  .landing-text h1,
-  h2 {
+  .landing-text h1 {
+    color: #172b4d;
     font-style: normal;
     font-weight: 700;
     font-size: 40px;
@@ -467,10 +473,10 @@
 
   .landing-text h2 {
     color: #36b27f;
-  }
-
-  .landing-text h1 {
-    color: #172b4d;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    margin: 0%;
   }
 
   .landing-text p {
@@ -498,6 +504,7 @@
     flex-direction: column;
     align-items: center;
     width: 375px;
+    margin: auto;
   }
 
   .recent-works-title h2 {
@@ -589,15 +596,16 @@
     flex-direction: column;
     align-items: center;
     text-align: center;
-    padding-top: 66px;
+    padding-top: 59px;
     background-image: url('../image/vector-back.png');
     background-repeat: no-repeat;
     background-position: center;
+    background-position-y: -37px;
   }
 
   .about-me-section {
     width: 375px;
-    margin-top: 40px;
+    margin: auto;
   }
 
   .about-me h2 {
@@ -752,6 +760,7 @@
     background-repeat: no-repeat;
     background-position: right bottom;
     background-position-y: 280px;
+    margin: auto;
   }
 
   .email {
