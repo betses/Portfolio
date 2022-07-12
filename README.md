@@ -1,7 +1,10 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
 # Portfolio
-Mobile version personal Portfolio page using css and html
+Mobile version personal Portfolio page using css and html.
+
+## Live preview 
+Page Link https://betses.github.io/Portfolio/
 
 ## Built With
 
