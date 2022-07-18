@@ -19,7 +19,8 @@
     background: #008552;
   }
 
-  .mob-nav-container, .mob-navbar{
+  .mob-nav-container,
+  .mob-navbar {
     display: none;
   }
 
@@ -433,7 +434,7 @@
     background: #008552;
   }
 
-  nav img { 
+  nav img {
     width: 18px;
     height: 12px;
   }
@@ -444,6 +445,7 @@
     font-size: large;
     font-weight: bolder;
   }
+
   .mob-nav-container {
     height: 100vh;
     width: 100%;
