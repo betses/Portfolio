@@ -12,8 +12,22 @@
   <header>
     <nav>
       <div class="mob-navbar">
-        <a href="#">Welcome</a>
-        <img src="image/Union.png" alt="option">
+        <a href="#" id="option-head">Welcome</a>
+        <img src="image/Union.png" alt="option" id="option1" onclick="display()">
+        <img src="image/close-Icon.png" alt="Close option" id="option2" onclick="display()">
+      </div>
+      <div class="mob-nav-container" id="menu">
+        <ul class="mob-nav">
+          <li>
+            <a href="#portfolio" onclick="display()">Portfolio</a>
+          </li>
+          <li>
+            <a href="#about-me" onclick="display()" >About</a>
+          </li>
+          <li>
+            <a href="#contact-me" onclick="display()">Contact</a>
+          </li>
+        </ul>
       </div>
       <div class="top-nav">
         <ul class="main-nav">
@@ -254,5 +268,6 @@
       </h2>
     </footer>
   </main>
+  <script src="main.js"></script>
 </body>
 </html>
