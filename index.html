@@ -142,18 +142,21 @@
       <div class="modal" id="modal-id"></div>
     </div>
   </main>
-    <footer id="contact-me">
+    <footer id="contact-me-footer">
       <div class="footer-wrapper">
         <div class="chat-text">
           <h2>
           I'm always interested in hearing about new projects, so if you'd like to chat please get in touch.
           </h2>
         </div>
-        <form action="https://formspree.io/f/xoqrojkw" method="POST">
+        <form id="contact-me" action="https://formspree.io/f/xoqrojkw" method="POST">
           <div class="input-field">
-            <input type="text" name="name" maxlength="30" class="text-input" placeholder="Full name" required>
-            <input type="email" name="Email" class="text-input" placeholder="Email address" required>
+            <input type="text" name="name" id="user-name" maxlength="30" class="text-input" placeholder="Full name" required>
+            <input type="email" id="user-email" name="Email" class="text-input" placeholder="Email address" required>
             <textarea name="textarea" class="text-input" id="text-area" maxlength="500" placeholder="Enter text here" cols="30" rows="10" required></textarea>
+          </div>
+          <div class="error-message">
+            <small id="error"></small>
           </div>
           <div class="button-wrapp">
             <button type="submit" class="get-in-touch-button" id="contact-button">Get in touch</button>

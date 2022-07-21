@@ -1,3 +1,7 @@
+const form = document.getElementById('contact-me');
+const emailInput = document.getElementById('user-email');
+const error = document.getElementById('error');
+
 let isClicked = false;
 let isClicked2 = false;
 // eslint-disable-next-line no-unused-vars
@@ -204,3 +208,14 @@ for (let i = 0; i < myProjects.length; i += 1) {
     });
   });
 }
+form.addEventListener('submit', (event) => {
+  let check = false;
+  if (emailInput.value.toLowerCase() === emailInput.value) {
+    check = true;
+  }
+  if (check === false) {
+    event.preventDefault();
+    error.innerText = 'Email must be in Lower Case';
+    error.style.color = 'red';
+  }
+});
