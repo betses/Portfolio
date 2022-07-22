@@ -1,6 +1,8 @@
 const form = document.getElementById('contact-me');
 const emailInput = document.getElementById('user-email');
 const error = document.getElementById('error');
+const nameInput = document.getElementById('user-name');
+const textInput = document.getElementById('text-area');
 
 let isClicked = false;
 let isClicked2 = false;
@@ -219,3 +221,28 @@ form.addEventListener('submit', (event) => {
     error.style.color = 'red';
   }
 });
+
+function setValue() {
+  let data = null;
+  data = JSON.parse(localStorage.getItem('formData'));
+  nameInput.value = data.name;
+  emailInput.value = data.email;
+  textInput.value = data.message;
+}
+const formData = { name: nameInput.value, email: emailInput.value, message: textInput.value };
+function populateStorage() {
+  const formData = { name: nameInput.value, email: emailInput.value, message: textInput.value };
+  localStorage.setItem('formData', JSON.stringify(formData));
+  setValue();
+}
+
+const mybutton = document.getElementById('contact-button');
+mybutton.addEventListener('click', () => {
+  if (!localStorage.getItem(formData)) {
+    populateStorage();
+  } else {
+    setValue();
+  }
+});
+
+setValue();
