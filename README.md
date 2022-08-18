@@ -1,7 +1,7 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
 # Portfolio
-Mobile version personal Portfolio page using css and html.
+This website is a prtfolio page where you can view all recent works and view developed skill.
 
 ## Live preview 
 Page Link https://betses.github.io/Portfolio/
