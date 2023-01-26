@@ -148,7 +148,7 @@
     padding: 62px 24px 0 26px;
   }
 
-  .grid-container>div {
+  .grid-container > div {
     background-color: #eaf1ee;
     text-align: center;
   }
@@ -269,7 +269,7 @@
     padding: 62px 24px 0 24px;
   }
 
-  .grid-container2>div {
+  .grid-container2 > div {
     background-color: #eaf1ee;
     text-align: center;
     width: 369px;
@@ -534,7 +534,6 @@
   .skill-list {
     margin-top: 5%;
     display: flex;
-    gap: 3%;
     list-style: none;
     padding-left: 0;
     flex-wrap: wrap;
