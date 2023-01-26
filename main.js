@@ -25,19 +25,19 @@ function display() {
 const myProjects = [
   {
     id: 0,
-    name: 'Multi-Post Stories Gain+Glory',
-    title: 'Keeping track of hundreds of components',
-    image: '',
-    technologies: ['Ruby on rails', 'CSS', 'JavaScript', 'html'],
+    name: 'Eventify',
+    title: 'Eventify',
+    image: 'image/eventify.PNG',
+    technologies: ['Ruby on rails', 'Tailwind CSS', 'JavaScript', 'html'],
     description: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry"s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry"s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea',
     liveView: '#',
     sourcecode: '#',
   },
   {
     id: 1,
-    name: 'Multi-Post Stories Gain+Glory',
+    name: 'ToDo App React',
     title: 'Keeping track of hundreds of components',
-    image: '',
+    image: 'image/todoReact.PNG',
     technologies: ['Ruby on rails', 'CSS', 'JavaScript', 'html'],
     description: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry"s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry"s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea',
     liveView: '#',
@@ -45,9 +45,9 @@ const myProjects = [
   },
   {
     id: 2,
-    name: 'Multi-Post Stories Gain+Glory',
+    name: 'ToDo App',
     title: 'Keeping track of hundreds of components',
-    image: '',
+    image: 'image/todoApp.PNG',
     technologies: ['Ruby on rails', 'CSS', 'JavaScript', 'html'],
     description: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry"s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry"s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea',
     liveView: '#',
@@ -55,9 +55,9 @@ const myProjects = [
   },
   {
     id: 3,
-    name: 'Multi-Post Stories Gain+Glory',
+    name: 'Tomorrowland',
     title: 'Keeping track of hundreds of components',
-    image: '',
+    image: 'image/tomorrowland.JPG',
     technologies: ['Ruby on rails', 'CSS', 'JavaScript', 'html'],
     description: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry"s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry"s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea',
     liveView: '#',
@@ -65,9 +65,9 @@ const myProjects = [
   },
   {
     id: 4,
-    name: 'Multi-Post Stories Gain+Glory',
+    name: 'Math Magician',
     title: 'Keeping track of hundreds of components',
-    image: '',
+    image: 'image/calculator.PNG',
     technologies: ['Ruby on rails', 'CSS', 'JavaScript', 'html'],
     description: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry"s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry"s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea',
     liveView: '#',
@@ -75,9 +75,39 @@ const myProjects = [
   },
   {
     id: 5,
-    name: 'Multi-Post Stories Gain+Glory',
+    name: 'Chiflix',
     title: 'Keeping track of hundreds of components',
-    image: '',
+    image: 'image/chiflix.PNG',
+    technologies: ['Ruby on rails', 'CSS', 'JavaScript', 'html'],
+    description: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry"s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry"s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea',
+    liveView: '#',
+    sourcecode: '#',
+  },
+  {
+    id: 6,
+    name: 'Bookstore',
+    title: 'Keeping track of hundreds of components',
+    image: 'image/bookstore.PNG',
+    technologies: ['Ruby on rails', 'CSS', 'JavaScript', 'html'],
+    description: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry"s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry"s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea',
+    liveView: '#',
+    sourcecode: '#',
+  },
+  {
+    id: 7,
+    name: 'Dota',
+    title: 'Keeping track of hundreds of components',
+    image: 'image/dota.PNG',
+    technologies: ['Ruby on rails', 'CSS', 'JavaScript', 'html'],
+    description: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry"s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry"s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea',
+    liveView: '#',
+    sourcecode: '#',
+  },
+  {
+    id: 8,
+    name: 'Budget App',
+    title: 'Keeping track of hundreds of components',
+    image: 'image/budget.PNG',
     technologies: ['Ruby on rails', 'CSS', 'JavaScript', 'html'],
     description: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry"s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry"s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea',
     liveView: '#',
@@ -106,10 +136,10 @@ const modalRender = (id) => {
 <img id="close-btn" class="close-btn1" src="image/Disable2.png" onclick="modalDisplay()" alt="close button">
 </div>
 <div class="snapshot">
-<img id="snapshot" src="image/Snapshoot-portfolio.png"  alt="snapshot">
+<img id="snapshot" src='${myProjects[id].image}' alt="snapshot">
 </div>
 <div class="close-btn">
-<img id="close-btn2" class="close-btn2" src="image/Snapshoot-mob-portfolio.png" onclick="modalDisplay()" alt="Mobile version snapshot">
+<img id="close-btn2" class="close-btn2" src='${myProjects[id].image}' onclick="modalDisplay()" alt="Mobile version snapshot">
 </div>
 <div class="modal-btns">
   <a href= '${myProjects[id].liveView}'>
@@ -131,14 +161,6 @@ const modalRender = (id) => {
 </div>
 <div class="modal-head">
   <h2>${myProjects[id].title}</h2>
-    <ul class="skill-list">
-      <li>Codekit</li>
-      <li>Github</li>
-      <li>javascript</li>
-      <li id="mob-list">Bootsrap</li>
-      <li id="mob-list">Terminal</li>
-      <li id="mob-list">codepen</li>
-    </ul>
 </div>
 <div class="modal-text">
   <p>${myProjects[id].description}</p>
@@ -185,17 +207,17 @@ let gridContainor = '';
 for (let i = 0; i < myProjects.length; i += 1) {
   gridContainor = `
   <div class="my-work-card">
-  <div class="card-image"></div>
+  <div class="card-image">
+    <img class="card-image-tag" src='${myProjects[i].image}' alt="snapshot2">
+  </div>
   <div class="my-works-text">
     <h2>${myProjects[i].name}</h2>
     <ul class="built-with">
-     ${
-  myProjects[i].technologies.map((tech) => `<li>${tech}</li>`).join('')
-}
+     ${myProjects[i].technologies.map((tech) => `<li>${tech}</li>`).join('')
+    }
     </ul>
-    <button type="button" onclick="modalDisplay()"  class="work-button" id="my-work-button1" data-id="${
-  myProjects[i].id
-}">See Project</button>
+    <button type="button" onclick="modalDisplay()"  class="work-button" id="my-work-button1" data-id="${myProjects[i].id
+    }">See Project</button>
   </div>
   </div>
 

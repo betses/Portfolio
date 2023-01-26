@@ -62,10 +62,10 @@
   .mob-navbar {
     margin: 5px 15px;
     height: 48px;
-    width: 328px;
     display: flex;
     align-items: center;
     justify-content: space-between;
+    padding: 0 56px;
   }
 
   #option2 {
@@ -165,7 +165,7 @@
     padding: 62px 24px 0 26px;
   }
 
-  .grid-container > div {
+  .grid-container>div {
     background-color: #eaf1ee;
     text-align: center;
   }
@@ -190,6 +190,10 @@
     height: 222px;
     background-color: white;
     border-radius: 8px 8px 0 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
   }
 
   .my-work-card {
@@ -199,6 +203,13 @@
 
   .card-image {
     height: 252px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .card-image-tag {
+    width: 334px;
   }
 
   .built-with {
@@ -276,7 +287,7 @@
     padding: 62px 24px 0 24px;
   }
 
-  .grid-container2 > div {
+  .grid-container2>div {
     background-color: #eaf1ee;
     text-align: center;
     width: 327px;
@@ -441,6 +452,11 @@
 
   #close-btn {
     margin: 10px 0;
+  }
+
+  #close-btn2 {
+    width: 100%;
+
   }
 
   #snapshot {
