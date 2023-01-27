@@ -58,7 +58,7 @@ const myProjects = [
     name: 'Multi-Post Stories Gain+Glory',
     title: 'Keeping track of hundreds of components',
     image: '',
-    technologies: ['Ruby on rails', 'CSS', 'JavaScript', 'html'],
+    technologies: ['Ruby on rails', 'CSS', 'JavaScript', 'html', 'Webpack'],
     description: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry"s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry"s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea',
     liveView: '#',
     sourcecode: '#',
@@ -189,13 +189,11 @@ for (let i = 0; i < myProjects.length; i += 1) {
   <div class="my-works-text">
     <h2>${myProjects[i].name}</h2>
     <ul class="built-with">
-     ${
-  myProjects[i].technologies.map((tech) => `<li>${tech}</li>`).join('')
-}
+     ${myProjects[i].technologies.map((tech) => `<li>${tech}</li>`).join('')
+    }
     </ul>
-    <button type="button" onclick="modalDisplay()"  class="work-button" id="my-work-button1" data-id="${
-  myProjects[i].id
-}">See Project</button>
+    <button type="button" onclick="modalDisplay()"  class="work-button" id="my-work-button1" data-id="${myProjects[i].id
+    }">See Project</button>
   </div>
   </div>
 
