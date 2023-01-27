@@ -1,7 +1,7 @@
 /* Mobile verion start here */
 @media (max-width: 768px) {
   * {
-    font-family: 'Inter', sans-serif;
+    font-family: "Inter", sans-serif;
     margin: 0;
     padding: 0;
   }
@@ -51,7 +51,7 @@
   }
 
   .mob-nav a {
-    font-family: 'Inter', sans-serif;
+    font-family: "Inter", sans-serif;
     font-style: normal;
     font-weight: 600;
     font-size: 32px;
@@ -77,7 +77,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-image: url('../image/background-mobile.png');
+    background-image: url("../image/background-mobile.png");
     background-repeat: no-repeat;
     width: 375px;
     margin: auto;
@@ -165,7 +165,7 @@
     padding: 62px 24px 0 26px;
   }
 
-  .grid-container>div {
+  .grid-container > div {
     background-color: #eaf1ee;
     text-align: center;
   }
@@ -236,7 +236,7 @@
     align-items: center;
     text-align: center;
     padding-top: 59px;
-    background-image: url('../image/vector-back.png');
+    background-image: url("../image/vector-back.png");
     background-repeat: no-repeat;
     background-position: center;
     background-position-y: -37px;
@@ -287,7 +287,7 @@
     padding: 62px 24px 0 24px;
   }
 
-  .grid-container2>div {
+  .grid-container2 > div {
     background-color: #eaf1ee;
     text-align: center;
     width: 327px;
@@ -395,7 +395,7 @@
 
   footer {
     width: 375px;
-    background-image: url('../image/bottom-vector.png');
+    background-image: url("../image/bottom-vector.png");
     background-repeat: no-repeat;
     background-position: right bottom;
     background-position-y: 280px;
@@ -545,7 +545,7 @@
     background-color: #ebecf0;
     border-radius: 4px;
     padding: 10px 11px;
-    font-family: 'Inter', sans-serif;
+    font-family: "Inter", sans-serif;
     font-style: normal;
     font-weight: 500;
     font-size: 12px;

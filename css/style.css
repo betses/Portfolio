@@ -1,6 +1,6 @@
 @media (min-width: 768px) {
   * {
-    font-family: 'Inter', sans-serif;
+    font-family: "Inter", sans-serif;
     margin: 0;
     padding: 0;
   }
@@ -27,7 +27,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-image: url('../image/Header-llustration-desktop.png');
+    background-image: url("../image/Header-llustration-desktop.png");
     background-repeat: no-repeat;
     background-position: center;
     background-position-y: 1px;
@@ -147,7 +147,7 @@
     padding: 62px 24px 0 26px;
   }
 
-  .grid-container>div {
+  .grid-container > div {
     background-color: #eaf1ee;
     text-align: center;
   }
@@ -219,7 +219,7 @@
     align-items: center;
     text-align: center;
     padding-top: 66px;
-    background-image: url('../image/abouthead.png');
+    background-image: url("../image/abouthead.png");
     background-repeat: no-repeat;
     background-position: center;
   }
@@ -269,7 +269,7 @@
     padding: 62px 24px 0 24px;
   }
 
-  .grid-container2>div {
+  .grid-container2 > div {
     background-color: #eaf1ee;
     text-align: center;
     width: 369px;
@@ -406,7 +406,7 @@
   }
 
   footer {
-    background-image: url('../image/footerbg.png');
+    background-image: url("../image/footerbg.png");
     background-repeat: no-repeat;
     background-position: center;
   }
@@ -544,7 +544,7 @@
     background-color: #ebecf0;
     border-radius: 4px;
     padding: 6px 10px;
-    font-family: 'Inter', sans-serif;
+    font-family: "Inter", sans-serif;
     font-style: normal;
     font-weight: 500;
     font-size: 12px;
