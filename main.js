@@ -53,7 +53,7 @@ const myProjects = [
     title:
       'ToDo App: A Front-end Web Application Built with Webpack for Task Management and Organization',
     image: 'image/todoApp.PNG',
-    technologies: ['Ruby on rails', 'CSS', 'JavaScript', 'html'],
+    technologies: ['Ruby on rails', 'CSS', 'JavaScript', 'html', 'Webpack'],
     description:
       "ToDo App is a front-end web application built using Webpack. It allows users to create and manage their to-do list by inputting tasks and marking them as complete. The app is designed to be simple and easy to use, providing an intuitive interface for adding, editing, and deleting tasks. Webpack is used to bundle and optimize the app's assets, ensuring fast loading times and a smooth user experience.With this ToDo App, users can easily keep track of their tasks and stay organized.The app also take advantage of webpack's ability to optimize the code for production which makes it more efficient and faster to load for the end user",
     liveView: 'https://betses.github.io/webpack/index.html',
