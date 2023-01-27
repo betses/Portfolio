@@ -6,13 +6,12 @@
   }
 
   button {
-    background: #36b37f;
+    background: #26805a;
   }
 
   button:hover {
-    background: #c5e9da;
+    background: #1a593e;
     box-shadow: 0 8px 16px rgba(54, 179, 127, 0.24);
-    transition: all 0.5s ease-out;
   }
 
   button:active {
@@ -148,7 +147,7 @@
     padding: 62px 24px 0 26px;
   }
 
-  .grid-container > div {
+  .grid-container>div {
     background-color: #eaf1ee;
     text-align: center;
   }
@@ -157,16 +156,16 @@
     background-color: #36b37e;
     border: none;
     color: white;
-    padding: 12px;
+    padding: 8px 20px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
     margin: 4px 2px;
     font-style: normal;
     font-weight: 500;
-    font-size: 17px;
+    font-size: 16px;
     line-height: 24px;
-    border-radius: 8px;
+    border-radius: 6px;
   }
 
   .my-works-text {
@@ -192,7 +191,8 @@
   }
 
   .my-work-card:hover {
-    transform: scale(1.1);
+    transform: scale(103%);
+    transition: all 0.2s ease-out;
   }
 
   .built-with {
@@ -269,7 +269,7 @@
     padding: 62px 24px 0 24px;
   }
 
-  .grid-container2 > div {
+  .grid-container2>div {
     background-color: #eaf1ee;
     text-align: center;
     width: 369px;

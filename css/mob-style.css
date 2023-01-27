@@ -165,7 +165,7 @@
     padding: 62px 24px 0 26px;
   }
 
-  .grid-container > div {
+  .grid-container>div {
     background-color: #eaf1ee;
     text-align: center;
   }
@@ -287,7 +287,7 @@
     padding: 62px 24px 0 24px;
   }
 
-  .grid-container2 > div {
+  .grid-container2>div {
     background-color: #eaf1ee;
     text-align: center;
     width: 327px;
@@ -422,8 +422,9 @@
     width: 311px;
   }
 
-  .close-btn1 {
-    display: none;
+  .close-btn-wrap {
+    display: flex;
+    justify-content: end;
   }
 
   .modal-content {
