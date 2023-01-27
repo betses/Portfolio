@@ -228,17 +228,9 @@ for (let i = 0; i < myProjects.length; i += 1) {
   <div class="my-works-text">
     <h2>${myProjects[i].name}</h2>
     <ul class="built-with">
-<<<<<<< HEAD
-     ${myProjects[i].technologies.map((tech) => `<li>${tech}</li>`).join('')
-    }
-    </ul>
-    <button type="button" onclick="modalDisplay()"  class="work-button" id="my-work-button1" data-id="${myProjects[i].id
-    }">See Project</button>
-=======
      ${myProjects[i].technologies.map((tech) => `<li>${tech}</li>`).join('')}
     </ul>
     <button type="button" onclick="modalDisplay()"  class="work-button" id="my-work-button1" data-id="${myProjects[i].id}">See Project</button>
->>>>>>> 00f7e0e6812d9219cd82dccef58bbf22f80c1ab7
   </div>
   </div>
 
