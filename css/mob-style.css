@@ -1,7 +1,7 @@
 /* Mobile verion start here */
 @media (max-width: 768px) {
   * {
-    font-family: 'Inter', sans-serif;
+    font-family: "Inter", sans-serif;
     margin: 0;
     padding: 0;
   }
@@ -51,7 +51,7 @@
   }
 
   .mob-nav a {
-    font-family: 'Inter', sans-serif;
+    font-family: "Inter", sans-serif;
     font-style: normal;
     font-weight: 600;
     font-size: 32px;
@@ -62,10 +62,10 @@
   .mob-navbar {
     margin: 5px 15px;
     height: 48px;
-    width: 328px;
     display: flex;
     align-items: center;
     justify-content: space-between;
+    padding: 0 56px;
   }
 
   #option2 {
@@ -77,7 +77,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-image: url('../image/background-mobile.png');
+    background-image: url("../image/background-mobile.png");
     background-repeat: no-repeat;
     width: 375px;
     margin: auto;
@@ -190,6 +190,10 @@
     height: 222px;
     background-color: white;
     border-radius: 8px 8px 0 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
   }
 
   .my-work-card {
@@ -199,6 +203,13 @@
 
   .card-image {
     height: 252px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .card-image-tag {
+    width: 334px;
   }
 
   .built-with {
@@ -225,7 +236,7 @@
     align-items: center;
     text-align: center;
     padding-top: 59px;
-    background-image: url('../image/vector-back.png');
+    background-image: url("../image/vector-back.png");
     background-repeat: no-repeat;
     background-position: center;
     background-position-y: -37px;
@@ -384,7 +395,7 @@
 
   footer {
     width: 375px;
-    background-image: url('../image/bottom-vector.png');
+    background-image: url("../image/bottom-vector.png");
     background-repeat: no-repeat;
     background-position: right bottom;
     background-position-y: 280px;
@@ -411,8 +422,9 @@
     width: 311px;
   }
 
-  .close-btn1 {
-    display: none;
+  .close-btn-wrap {
+    display: flex;
+    justify-content: end;
   }
 
   .modal-content {
@@ -441,6 +453,10 @@
 
   #close-btn {
     margin: 10px 0;
+  }
+
+  #close-btn2 {
+    width: 100%;
   }
 
   #snapshot {
@@ -529,7 +545,7 @@
     background-color: #ebecf0;
     border-radius: 4px;
     padding: 10px 11px;
-    font-family: 'Inter', sans-serif;
+    font-family: "Inter", sans-serif;
     font-style: normal;
     font-weight: 500;
     font-size: 12px;
