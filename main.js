@@ -157,7 +157,7 @@ const modalRender = (id) => {
 <img id="close-btn2" class="close-btn2" src='${myProjects[id].image}' onclick="modalDisplay()" alt="Mobile version snapshot">
 </div>
 <div class="modal-btns">
-  <a href= '${myProjects[id].liveView}'>
+  <a target="_blank" href= '${myProjects[id].liveView}'>
   <button class="see-project-mbutton1" type="button">
   <div class='btn-modal'>
     <p>See Live</p>
@@ -165,7 +165,7 @@ const modalRender = (id) => {
     </div>
   </button>
   </a>
-  <a href='${myProjects[id].sourcecode}'>
+  <a target="_blank" href='${myProjects[id].sourcecode}'>
   <button class="see-project-mbutton2" type="button">
     <div class='btn-modal'>
     <p>See Source</p>
@@ -181,7 +181,7 @@ const modalRender = (id) => {
   <p>${myProjects[id].description}</p>
 </div>
 <div class="mob-modal-btns">
-  <a href= '${myProjects[id].liveView}'>
+  <a target="_blank" href= '${myProjects[id].liveView}'>
   <button class="see-project-mbutton1" type="button">
   <div class='btn-modal'>
     <p>See Live</p>
@@ -189,7 +189,7 @@ const modalRender = (id) => {
     </div>
   </button>
   </a>
-  <a href='${myProjects[id].sourcecode}'>
+  <a target="_blank" href='${myProjects[id].sourcecode}'>
   <button class="see-project-mbutton2" type="button">
     <div class='btn-modal'>
     <p>See Source</p>
@@ -230,7 +230,9 @@ for (let i = 0; i < myProjects.length; i += 1) {
     <ul class="built-with">
      ${myProjects[i].technologies.map((tech) => `<li>${tech}</li>`).join('')}
     </ul>
-    <button type="button" onclick="modalDisplay()"  class="work-button" id="my-work-button1" data-id="${myProjects[i].id}">See Project</button>
+    <button type="button" onclick="modalDisplay()"  class="work-button" id="my-work-button1" data-id="${
+  myProjects[i].id
+}">See Project</button>
   </div>
   </div>
 
